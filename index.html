@@ -3,21 +3,12 @@ layout: default
 ---
 
 <div class="home">
+  <h1 class="page-heading">Welcome!</h1>
 
-  <h1 class="page-heading">Posts</h1>
+  <p>{{ site.mission }}</p>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  <h1 class="page-heading">Join us on Sunday</h1>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <p>Worship services are at 10:00 on Sunday. We are located at <a href="{{ site.mapurl }}">1944 S Jackson St</a>, on the south side of Frankfort.</p>
 
 </div>
