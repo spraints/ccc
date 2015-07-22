@@ -6,7 +6,7 @@ servicetimes:
 mission:
   Here at Community, we are focused on living a REAL LIFE centered around a REAL FAITH lived out in a REAL COMMUNITY.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://frankfortccc.com" # the base hostname & protocol for your site
+url: "http://pickardayune.com/ccc" # the base hostname & protocol for your site
 mapurl: "tbd"
 
 # Build settings
