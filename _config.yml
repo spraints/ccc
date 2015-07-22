@@ -5,8 +5,8 @@ servicetimes:
   "Worship Service - Sundays at 10:00 am"
 mission:
   Here at Community, we are focused on living a REAL LIFE centered around a REAL FAITH lived out in a REAL COMMUNITY.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://pickardayune.com/ccc" # the base hostname & protocol for your site
+baseurl: "/ccc" # the subpath of your site, e.g. /blog/
+url: "http://pickardayune.com" # the base hostname & protocol for your site
 mapurl: "tbd"
 
 # Build settings
